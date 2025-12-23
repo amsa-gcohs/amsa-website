@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Join AMSA</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script defer src="js/main.js"></script>
+</head>
+<body>
+    <header>
+        <div class="container header-container">
+            <div class="logo">
+                <img src="images/amsalogo.jpg" alt="AMSA Logo">
+            </div>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="activities.html">Activities</a></li>
+                    <li><a href="events.html">Events</a></li>
+                    <li><a href="gallery.html">Gallery</a></li>
+                    <li><a href="research.html">Research</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="join.html" class="btn-join active">Join AMSA</a></li>
+                    <li><a href="executive.html">Executive</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="join-section">
+        <div class="container">
+            <h2>Become a Member</h2>
+            <p>Join AMSA and be part of a vibrant community of medical students dedicated to health, culture, and research.</p>
+            <form action="https://formspree.io/f/xojarvoe" method="POST" class="join-form">
+
+    <input type="text" name="full_name" placeholder="Full Name" required>
+
+    <input type="email" name="email" placeholder="Email Address" required>
+
+    <input type="tel" name="phone" placeholder="Phone Number" required>
+
+    <select name="course" required>
+        <option value="">Select Course</option>
+        <option>Diploma in Clinical Medicine & Community Health (DCM)</option>
+        <option>Diploma in Pharmacy (PHA)</option>
+        <option>Diploma in Medical Laboratory Technology (MLT)</option>
+        <option>Diploma in Public Health Dentistry (PHD)</option>
+        <option>Other</option>
+    </select>
+
+    <textarea name="message" placeholder="Why do you want to join AMSA?" required></textarea>
+
+    <!-- Anti-spam -->
+    <input type="hidden" name="_subject" value="New AMSA Membership Application">
+    <input type="hidden" name="_captcha" value="false">
+
+    <button type="submit" class="btn-primary">Submit Application</button>
+    <input type="hidden" name="_redirect" value="thankyou.html">
+</form>
+
+        </div>
+    </section>
+
+    <footer>
+        <div class="container footer-container">
+            <p>&copy; 2025 AMSA - Gulu College of Health Sciences. All Rights Reserved.</p>
+            <p>Follow us on: 
+                <a href="#">Facebook</a> | 
+                <a href="#">Instagram</a> | 
+                <a href="#">Twitter</a>
+            </p>
+        </div>
+    </footer>
+</body>
+</html>
